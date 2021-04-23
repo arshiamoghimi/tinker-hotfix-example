@@ -4,7 +4,7 @@ Scenarios using Tinker look like this:
 1. Code using Tinker convention
 2. Find a bug after release
 3. Fix the bug
-4. Use Tinker to build path apk
+4. Use Tinker to build patch apk
 5. Publish apk using predefined API in your code
 6. Now user can apply the patch without the need to reinstall
 
@@ -20,11 +20,11 @@ By clicking on the "Crash" button, an unhandled exception will occur and app wil
 
 Fix the code by commenting out the problematic part and uncommenting the Toast message indicating successful bug elimination.
 
-## Use Tinker to build path apk
+## Use Tinker to build patch apk
 
 Use tinker gradle options to build a patch.
 
-![](assets/tinker-gradle.PNG)
+![](assets/tinker-gradle.png)
 
 Patched apks will be available at 'build/outputs/tinkerPatch'  by default after the Tinker build.
 
